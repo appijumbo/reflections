@@ -1,0 +1,113 @@
+Git
+"Im an egotistical bastard and I name all projects after myself"... hes a bit of a git!
+
+
+
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Typos etc were more obvious.
+    
+    
+    iMac:Git Udacity tutorials tomormiston$ diff -u game_new.js game_old.js
+    --- game_new.js	2014-09-17 16:37:44.000000000 +0100
+    +++ game_old.js	2014-09-17 16:37:22.000000000 +0100
+    @@ -4,9 +4,9 @@
+    //
+ 
+    KEY_CODES = {
+    -   13: 'enter',
+        32: 'space',
+        37: 'left',
+    +   38: 'up',
+        39: 'right',
+        40: 'down',
+        70: 'f',
+    @@ -392,7 +392,7 @@
+        this.vel.rot = 0;
+    }
+ 
+    -    if (KEY_STATUS.spacr) {    ***  TYPO WAS HERE  ***
+    +    if (KEY_STATUS.up) {
+
+..... etc etc
+
+    
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You forget where you made changes, you can try things out without fear of loosing where you were up to on a stable version
+    You can have people easily check your work
+    You can see how long you spent on each feature
+
+
+Git uses 'commits' as the check-point for having said 'yep this feature/ bug fix' is logically done.
+*** each commit should have one clear, logical purpose, and you should never do too much work without committing ***
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The con is you might constantly put it off to avoid being critisised, you might want to get it 'perfect'. However it does allow you to choose when you have a 'stable' version that satisfies a logical change in a feature or a bug fix.
+    
+    Automatically storing is ok, but won't correspond to a feature or bug completion necessarily
+
+
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A feature or bug fix may require multiple files to be changed hence mutiple simultaneous commits, e.g. html, css and js all need for one feature
+
+
+
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git diff -u 
+    This is good for finding a bug in a file
+    
+    git log --stat
+    This is for reminding yourself of previous commits, feature developments and bug fixes
+    
+    You can search for a change that you did using 
+    git log --stat
+    seeing how many lines added or subtracted. 
+    
+    Then for exact details, compare two commit ID's using 
+    git diff -u 
+    to see what the exact changes were
+
+
+
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I often forget exactly what changes I made and why, and the direction Iwas trying to go in.
+    Git will allow a more structured review without loosing flexibilty
+    
+    If its easy to go back to when something worked, your far more likley to experiment and do this with low risk.
+    
+    
+
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Letting others review/ use the code
+    Use Github as part of my CV
+    
