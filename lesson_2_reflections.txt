@@ -18,7 +18,7 @@ What value do you think it offers?
 
     You might not want to track all files in the working directory; only when they are put in the staging area are they tracked.
 
-
+    As you complete code on a file you can pass it to the staging area, and only when all the files needed for that logical stage are completed are they commited
 
 
 
