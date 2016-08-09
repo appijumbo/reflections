@@ -36,10 +36,9 @@ change?
 
 
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-
+    An experimental feature, a demo, something part finished thats not to be confused with the finished master version
 
 
 
