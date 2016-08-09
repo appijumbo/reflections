@@ -49,7 +49,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 
-
+To easily emebmer what a branch was for and where its leading to, perhaps readying to merge the branch in future
 
 
 
