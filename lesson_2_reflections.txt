@@ -24,10 +24,10 @@ What value do you think it offers?
 
 
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
-
+    By having a staging area you have a 'half way house' so can caustiously prepare the things you want to commit before actually commiting them.
+    Several files might need adjusting before a commit is waranted
 
 
 
@@ -57,8 +57,8 @@ To easily emebmer what a branch was for and where its leading to, perhaps readyi
 
 
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
 
 
 
@@ -67,9 +67,8 @@ the diagram the way we do?
 
 
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Gits automatic merging vs. always doing merges manually?
 
-
+    Get to merge as much as possible, but at the same time a programmer can check the unkown areas that need a detailed eye or desion to be made.
 
 
