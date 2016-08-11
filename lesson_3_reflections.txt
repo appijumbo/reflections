@@ -1,1 +1,6 @@
-When would you want to dreate a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your work local?
+
+1) for sharing/ swopping of code
+2) allow code to be reviewed
+3) security
+4) Alternative computer access say home and at work
