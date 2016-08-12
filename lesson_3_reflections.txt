@@ -20,6 +20,20 @@ Describe the differences between forks, clones, and branches. When would you use
       A fork is a github clone. Cloning your remote repositories on github is a fork if you want that clone to be an independant copy of the original allowing you to push to it without requiring permission from the original repository for example.
   
   
-  What is the benefit of having a copy of the last known state of the remote stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
   
         
+        
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+        you could sop files via Dropbox or USB stick,  very painfull.
+        
+        The only way might be to create new folders every time there was an update and use email to say where to find them. Emailing patches is the old way but very painfull.
+        
+        Github allows control, experimentation, logging etc
+        
+        
+
+        
+
+
